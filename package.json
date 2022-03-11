@@ -1,0 +1,24 @@
+{
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "type-check": "tsc",
+    "prod": "next export"
+  },
+  "dependencies": {
+    "next": "10.0.6",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "typewriter-effect": "^2.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}

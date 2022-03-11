@@ -1,6 +1,5 @@
 
 import { ReactNode, Fragment } from 'react'
-import Navigation from './Navigation';
 import Footer from './Footer';
 import Heading from './Heading';
 import { useContext } from 'react'
@@ -12,7 +11,7 @@ type Props = {
   activeNav: string
 }
 
-const Layout = ({ children, pageTitle, activeNav }: Props) => {
+const Layout = ({ children, pageTitle }: Props) => {
 
   const { lightTheme } = useContext(ThemeContext);
 
@@ -21,7 +20,6 @@ const Layout = ({ children, pageTitle, activeNav }: Props) => {
       <header>
         <Heading />
         {pageTitle && <h2>{pageTitle}</h2>}
-        <Navigation active={activeNav} />
       </header>
       <main>
         {children}

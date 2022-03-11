@@ -1,6 +1,6 @@
 
 const Footer = () => (
-    <footer role="contentinfo">Ordo Consultancy Ltd 2021 <span>- Registered in England and Wales - Company Number - 7655054</span>
+    <footer role="contentinfo">Ordo Consultancy Ltd 2022 <span>- Registered in England and Wales - Company Number - 7655054</span>
         <style jsx>{`
            footer { 
                 background:#404040; 

@@ -27,7 +27,7 @@ const Contact = () => {
             </a>
           </p>
           <p>Or send us a message</p>
-          <form name="contact" netlify>
+          <form name="contact" data-netlify="true">
             <p>
               <label>
                 Name <input type="text" name="name" />

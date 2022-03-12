@@ -1,8 +1,6 @@
 import { useContext } from 'react'
 import { ThemeContext } from '../contexts/themeContext';
 import Hub from '../components/Hub'
-import Link from 'next/link'
-
 
 
 const IndexPage = () => {

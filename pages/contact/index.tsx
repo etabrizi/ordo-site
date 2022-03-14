@@ -138,6 +138,9 @@ const Contact = () => {
             padding: 10px;
             border: 1px solid grey;
             font-family: arial;
+            outline: none;
+            background: ${lightTheme ? "#fff" : "#000"};
+            color: ${lightTheme ? "#000" : "#fff"};
           }
 
           form textarea {

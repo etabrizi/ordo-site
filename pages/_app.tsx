@@ -13,6 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         <title>Ordo Consultancy Ltd - A Digital Consultancy Service</title>
         <meta name="description" content="Our aim is to provide UK business with the best skilled consultants, in all areas of Digital Delivery."
         />
+         <link rel='shortcut icon' sizes='16x16 32x32 48x48' href='../favicon.ico' type='image/x-icon' />
         <meta name="keywords" content="digital,consultancy,psd,html,php,css,ASP,CMS,web,development,xhtml" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href='https://fonts.googleapis.com/css?family=Nunito&v1&display=swap' rel='stylesheet' type='text/css' />

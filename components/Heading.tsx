@@ -22,8 +22,8 @@ const Heading = () => {
         text-align: center;
         border-top-left-radius: 0; 
         border-top-right-radius: 0; 
-        border-bottom-left-radius: 1.6em; 
-        border-bottom-right-radius: 1.6em;
+        border-bottom-left-radius: 0; 
+        border-bottom-right-radius: 0;
         margin: 0 0 20px 0;
         transition: background-color 0.2s;
         }

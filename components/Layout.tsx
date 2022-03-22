@@ -40,7 +40,7 @@ const Layout = ({ children, pageTitle, activeNav }: Props) => {
         .container:after {
           content: '';
           height: 50px;
-          width: 145px;
+          width: 125px;
           position: absolute;
           top: 60px;
           left: 25px;
@@ -48,7 +48,7 @@ const Layout = ({ children, pageTitle, activeNav }: Props) => {
         }
         h2 {
           font-size: 4em;
-          margin: 80px 0 20px 25px;
+          margin: 80px 0 40px 25px;
         }
         @media only screen and (min-width: 767px) { 
           .container { 

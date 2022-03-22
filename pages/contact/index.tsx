@@ -46,7 +46,7 @@ const Contact = () => {
         <ContentBlock>
           <h3>Contact</h3>
           <p>
-            If you're intrested in using our services, please use our enquiry
+            If you're interested in using our services, please use our enquiry
             form. Alternatively, contact us via our social media platforms.
           </p>
           <form

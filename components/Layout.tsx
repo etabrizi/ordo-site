@@ -34,6 +34,22 @@ const Layout = ({ children, pageTitle, activeNav }: Props) => {
           border-radius: 1.6em;
           background: ${lightTheme ? "#191919" : "#282828"};
         }
+
+        main {
+          position: relative;
+        }
+
+        main:after {
+          content: '';
+          position: absolute;
+          top: -120px;
+          right: 0;
+          height: 120px;
+          width: 120px;
+          background-image: ${lightTheme ? `url("data:image/svg+xml,%3Csvg version='1.1' width='100%25' height='100%25' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 72 72' style='enable-background:new 0 0 72 72;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cpath class='st0' d='M72,0c0,0,0,72-72,72c0,0,72,0,72,0V0z'/%3E%3C/svg%3E%0A")`: ` url("data:image/svg+xml,%3Csvg version='1.1' width='100%25' height='100%25' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 72 72' style='enable-background:new 0 0 72 72;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000;%7D%0A%3C/style%3E%3Cpath class='st0' d='M72,0c0,0,0,72-72,72c0,0,72,0,72,0V0z'/%3E%3C/svg%3E%0A")`};       
+          display: none;
+        }
+
         .container:after {
           content: "";
           height: 50px;
@@ -74,6 +90,9 @@ const Layout = ({ children, pageTitle, activeNav }: Props) => {
             width: 1000px;
             margin: 20px auto;
           }
+          main:after {
+            display: block;
+           }
           .container:after {
             width: 182px;
             top: 85px;

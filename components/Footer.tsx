@@ -22,6 +22,8 @@ const Footer = () => (
                 @media only screen and (min-width: 767px) {
                 footer {
                     border-radius: 1.6em;
+                    padding:5px; 
+                    margin-bottom: 30px;
                 }
                     span {
                         display: inline;

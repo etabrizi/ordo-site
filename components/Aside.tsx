@@ -27,7 +27,7 @@ const Aside = ({ children }: Props) => {
             aside {
                 position: absolute;
                 width: 33.33%;
-                right: 20px;
+                right: 25px;
                 top:40px;
             }
         }

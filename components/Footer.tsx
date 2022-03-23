@@ -4,7 +4,7 @@ const Footer = () => (
         <style jsx>{`
            footer { 
                 background:#404040; 
-                padding:5px; 
+                padding:20px; 
                 font-size:1.2em; 
                 font-family:Arial, Helvetica, sans-serif; 
                 text-align:center; 

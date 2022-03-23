@@ -43,7 +43,7 @@ const IndexPage = () => {
        width: 100%;
        background-color: ${lightTheme ? '#fff' : '#000'};
        border-radius: 1.6em;
-       padding: 20px;
+       padding: 25px;
        box-sizing: border-box;
        flex-direction: column;
        transition: background-color 0.2s;
@@ -58,14 +58,14 @@ const IndexPage = () => {
       transition: color 0.2s;
     }
     ul {
-      font-size: 1.4em;
+      font-size: 1.6em;
       margin-bottom: 30px;
       padding: 0 0 0 20px;
       color: ${lightTheme ? '#000' : '#fff'};
       transition: color 0.2s;
     }
     a {
-      font-size: 1.4em;
+      font-size: 1.6em;
       text-align: center;
       background: #ffa800;
       bottom: 0;
@@ -85,6 +85,7 @@ const IndexPage = () => {
      @media only screen and (min-width: 767px) {
 
       h3 {
+        font-size: 1.6em;
         margin: 10px 0 20px 0;
       }
      
@@ -97,7 +98,7 @@ const IndexPage = () => {
         min-height: 170px;
       }
       a {
-        font-size: 1.4em;
+        font-size: 1.6em;
         text-align: left;
         position: absolute;
         bottom: 0;

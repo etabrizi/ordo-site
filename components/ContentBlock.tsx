@@ -22,7 +22,7 @@ const ContentBlock = ({ children, minHeight }: Props) => {
         }
         @media only screen and (min-width: 767px) {
             .content-block {
-                padding: 20px 430px 20px 20px;
+                padding: 25px 390px 25px 25px;
                 margin: 0;
                 min-height: ${minHeight ? minHeight : '380'}px;
                 display:block;

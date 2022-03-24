@@ -3,10 +3,11 @@ import { ThemeContext } from '../contexts/themeContext';
 
 
 type Props = {
-    children?: ReactNode
+    children?: ReactNode,
+    noBackground?: boolean
 }
 
-const Aside = ({ children }: Props) => {
+const Aside = ({ children, noBackground = false }: Props) => {
 
     const { lightTheme } = useContext(ThemeContext);
     return (
@@ -20,6 +21,7 @@ const Aside = ({ children }: Props) => {
             width: 100%;  
             color: #000; 
             background-color: ${lightTheme ? '#ffa800' : '#fff'};
+            background:  ${noBackground ? 'none' : ''};
             transition: background-color 0.2s;
         }
 

@@ -19,6 +19,7 @@ const ContentBlock = ({ children, minHeight }: Props) => {
             border-bottom-right-radius: 1.6em;
             color: ${lightTheme ? '#000' : '#fff'};
             transition: background-color  0.2s, color 0.2s;
+            position: relative;
         }
         @media only screen and (min-width: 767px) {
             .content-block {

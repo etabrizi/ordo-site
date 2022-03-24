@@ -15,15 +15,19 @@ const Design = () => {
         <Layout pageTitle="Let's get creative" activeNav="design">
             <ContentBlock>
                 <h3>Design services</h3>
-                <p>Ordo provides a high level, experienced and clear digital design consultancy service.</p>
+                <p>Ordo provides a high level experienced digital design consultancy service. Using the latest creative tools, we aim to achieve excellent production results.</p>
+                
+                <span className="art-packs"></span>
+
                 <ul className="copy">
                     <li>We offer a step by step process for delivery, which keeps the design process clear and concise.</li>
-                    <li>We listen to clients' needs and make sure our work satisfies the requirements.</li>
-                    <li>Whatever the budget, we aim to achive high end results, on time and with the greatest impact.</li>
-                    <li>Be it the happy path or journey exceptions. We focus on the full UX journey. </li>
+                    <li>We listen to clients needs and make sure our work satisfies the requirements.</li>
+                    <li>We aim to achive high end results, on time and with the greatest impact.</li>
                 </ul>
 
                 <p>Why not <Link href="/contact"><a className="bold">get in touch</a></Link>. We're happy to discuss anything free of charge.</p>
+           
+               
             </ContentBlock>
             <style jsx>{`
              h3 {
@@ -33,6 +37,10 @@ const Design = () => {
             a {
                 color: ${lightTheme ? '#000' : '#fff'};
                 transition: color 0.2s;
+            }
+            h4 {
+                text-align: left;
+                margin-bottom: 20px;
             }
       `}</style>
         </Layout>

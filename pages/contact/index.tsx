@@ -3,7 +3,6 @@ import Layout from "../../components/Layout";
 import ContentBlock from "../../components/ContentBlock";
 import { useContext, useState } from "react";
 import { ThemeContext } from "../../contexts/themeContext";
-import Aside from '../../components/Aside';
 
 const Contact = () => {
   const { lightTheme } = useContext(ThemeContext);

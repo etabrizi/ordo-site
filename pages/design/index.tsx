@@ -17,7 +17,7 @@ const Design = () => {
                 <h3>Design services</h3>
                 <p>Ordo provides a high level experienced digital design consultancy service. Using the latest creative tools, we aim to achieve excellent production results.</p>
                 
-                <span className="art-packs"></span>
+                <span title="Adobe Indesign, Adobe Illustrator, Adobe Photoshop, Miro, Figma." className="art-packs"></span>
 
                 <ul className="copy">
                     <li>We offer a step by step process for delivery, which keeps the design process clear and concise.</li>

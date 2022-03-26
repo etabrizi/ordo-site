@@ -56,7 +56,7 @@ const Navigation = ({ active }: Props) => {
             flex-direction: row;
         }
         nav ul li{ 
-            margin-right: 2px;
+            margin-right: 3px;
         }
         nav li a {
             padding: 14px 40px;

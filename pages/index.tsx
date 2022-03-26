@@ -47,6 +47,7 @@ const IndexPage = () => {
        box-sizing: border-box;
        flex-direction: column;
        transition: background-color 0.2s;
+       min-height: 260px;
      }
      .home-panel div {
        width: 100%;
@@ -85,7 +86,7 @@ const IndexPage = () => {
      @media only screen and (min-width: 767px) {
 
       h3 {
-        font-size: 1.6em;
+        font-size: 1.8em;
         margin: 10px 0 20px 0;
       }
      

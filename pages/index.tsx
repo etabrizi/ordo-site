@@ -2,6 +2,7 @@ import { useContext } from 'react'
 import { ThemeContext } from '../contexts/themeContext';
 import Hub from '../components/Hub'
 import Link from 'next/link'
+import { isMobile } from 'react-device-detect';
 
 
 
@@ -9,8 +10,8 @@ const IndexPage = () => {
 
   const { lightTheme } = useContext(ThemeContext);
 
-  return (<Hub pageTitle="Our aim is to provide UK business with the best skilled consultants, in all areas of digital delivery.">
-    <div className="home-panel">
+  return (<Hub pageTitle={isMobile ? `The best skilled consultants, in all areas of digital delivery` : `Our aim is to provide UK business with the best skilled consultants, in all areas of digital delivery`}>
+    <div className="home-panel">      
       <div>
         <h3>Web Services</h3>
         <ul>

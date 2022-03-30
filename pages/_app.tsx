@@ -1,5 +1,5 @@
 // import App from 'next/app'
-
+import '../reset.css'
 import '../main.css'
 import { AppProps } from 'next/app'
 import Head from 'next/head'

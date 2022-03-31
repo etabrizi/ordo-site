@@ -39,7 +39,7 @@ const Layout = ({ children, pageTitle, activeNav }: Props) => {
         .theme-switcher {
             position: absolute;
             right: 25px;
-            top: 25px;
+            top: 30px;
             z-index: 1;
             width: 20px;
             height: 20px;

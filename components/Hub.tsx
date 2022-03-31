@@ -17,7 +17,7 @@ const Hub = ({ children, pageTitle, activeNav }: Props) => {
         <header>
           <Heading />
           <MobileView>
-            <Navigation active={activeNav} />
+            <div className="desktop"><Navigation active={activeNav} /></div>
           </MobileView>
           <span className="ordo-logo"></span>
           {pageTitle && (
@@ -65,6 +65,9 @@ const Hub = ({ children, pageTitle, activeNav }: Props) => {
         }
         @media only screen and (min-width: 767px) {
           .ordo-logo {
+            display: none;
+          }
+          .deskop {
             display: none;
           }
 

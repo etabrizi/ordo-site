@@ -14,7 +14,7 @@ const PageNotFound = () => {
     }, [])
 
     return (
-        < Hub pageTitle="Sorry, the page could not be found." >
+        < Hub activeNav='404' pageTitle="Sorry, the page could not be found." >
             <div className="home-panel">
             </div>
         </Hub >

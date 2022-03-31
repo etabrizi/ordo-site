@@ -10,7 +10,8 @@ const IndexPage = () => {
 
   const { lightTheme } = useContext(ThemeContext);
 
-  return (<Hub pageTitle={isMobile ? `The best skilled consultants, in all areas of digital delivery` : `Our aim is to provide UK business with the best skilled consultants, in all areas of digital delivery`}>
+  return (<Hub activeNav="home" pageTitle={isMobile ? `The best skilled consultants, in all areas of digital delivery` : `Our aim is to provide UK business with the best skilled consultants, in all areas of digital delivery`}>
+     
     <div className="home-panel">      
       <div>
         <h3>Web Services</h3>

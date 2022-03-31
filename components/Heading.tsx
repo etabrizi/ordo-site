@@ -4,12 +4,10 @@ import { ThemeContext } from '../contexts/themeContext';
 
 const Heading = () => {
 
-    const { lightTheme, switchTheme } = useContext(ThemeContext);
+    const { lightTheme} = useContext(ThemeContext);
 
     return (<h1>Ordo Consultancy Ltd <span>- A Digital Consultancy Service</span>
-        <a title="Change theme" className="icon-eye theme-switcher" onClick={switchTheme}></a>
         <style jsx>{`
-
       h1 { 
         display:block; 
         background-color: ${lightTheme ? '#404040' : '#000'};
@@ -17,14 +15,14 @@ const Heading = () => {
         position: relative;
         color: #ececec; 
         font-family: Arial, Helvetica, sans-serif; 
-        padding: 5px 0 5px 20px; 
+        padding: 25px 0 25px 25px; 
         font-size: 1.4em; 
-        text-align: center;
+        text-align: left;
         border-top-left-radius: 0; 
         border-top-right-radius: 0; 
         border-bottom-left-radius: 0; 
         border-bottom-right-radius: 0;
-        margin: 0 0 20px 0;
+        margin: 0 0 0 0;
         transition: background-color 0.2s;
         }
         .theme-switcher {
@@ -38,7 +36,9 @@ const Heading = () => {
         }
         @media only screen and (min-width: 767px) {
             h1 {
+                padding: 5px 0 5px 20px; 
                 border-radius: 1.6em; 
+                text-align: center;
             }
 
             span {

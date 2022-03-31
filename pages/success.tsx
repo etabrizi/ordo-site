@@ -14,7 +14,7 @@ const Success = () => {
     }, [])
 
     return (
-        < Hub pageTitle="Thank you, your message has been received." >
+        < Hub activeNav="success" pageTitle="Thank you, your message has been received." >
             <div className="home-panel">
             </div>
         </Hub >

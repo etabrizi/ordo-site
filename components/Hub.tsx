@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Heading from "./Heading";
 import Typewriter from "typewriter-effect";
 import Navigation from "./Navigation";
-import { MobileView } from "react-device-detect";
+
 type Props = {
   children?: ReactNode;
   pageTitle?: string;
@@ -16,9 +16,7 @@ const Hub = ({ children, pageTitle, activeNav }: Props) => {
       <div className="hub">
         <header>
           <Heading />
-          <MobileView>
-            <div className="desktop"><Navigation active={activeNav} /></div>
-          </MobileView>
+          <div className="desktop"><Navigation active={activeNav} /></div>
           <span className="ordo-logo"></span>
           {pageTitle && (
             <h2>

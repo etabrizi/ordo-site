@@ -65,10 +65,9 @@ const Hub = ({ children, pageTitle, activeNav }: Props) => {
           .ordo-logo {
             display: none;
           }
-          .deskop {
+          .desktop {
             display: none;
           }
-
           h2 {
             margin: 233px 165px 0 20px;
             padding: 0;

@@ -56,7 +56,7 @@ const Hub = ({ children, pageTitle, activeNav }: Props) => {
           margin-top: 80px;
         }
         header {
-          background: #b8baba;
+          background: #8d8d8d;
           border-radius: 1.6em;
           margin-bottom: 10px;
           min-height: 495px;
@@ -78,7 +78,7 @@ const Hub = ({ children, pageTitle, activeNav }: Props) => {
             margin: 20px auto;
           }
           header {
-            background: #b8baba url(/ordo_header.png) top no-repeat;
+            background: #8d8d8d url(/ordo_header.png) top no-repeat;
             border-radius: 1.6em;
             margin-bottom: 10px;
             animation: fadeIn;

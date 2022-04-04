@@ -18,9 +18,7 @@ const Web = () => {
                 <h3>Web services</h3>
                 <p>Technology moves quickly, we keep up. That's why Ordo provides the latest skill set when it comes to new and emerging web technologies.</p>
                 <p>Whatever the project size, we have the experience and the drive to deliver the results your business needs. </p>
-
-                <div className={lightTheme ? "icon-techstack" : "icon-techstack-white"}></div>
-
+                <div title="HTML, CSS, Javascript, React, Next, Vue, Firebase" className={lightTheme ? "icon-techstack" : "icon-techstack-white"}></div>
                 <p>We operate on a contract basis, offering full / part-time project support. We manage the inputs and deliver the output whilst keeping communication key to our delivery.</p>
                 <p>Why not <Link href="/contact"><a className="bold">get in touch</a></Link>. We're happy to discuss anything free of charge.</p>
                 <Aside>

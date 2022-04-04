@@ -6,7 +6,7 @@ const Heading = () => {
 
     const { lightTheme} = useContext(ThemeContext);
 
-    return (<h1>Ordo Consultancy Ltd <span>- A Digital Consultancy Service</span>
+    return (<h1><a className="home-link" href="/">Ordo Consultancy Ltd</a> <span>- A Digital Consultancy Service</span>
         <style jsx>{`
       h1 { 
         display:block; 
@@ -22,8 +22,13 @@ const Heading = () => {
         border-top-right-radius: 0; 
         border-bottom-left-radius: 0; 
         border-bottom-right-radius: 0;
-        margin: 0 0 0 0;
+        margin: 0;
         transition: background-color 0.2s;
+        }
+        .home-link {
+            color: #fff;
+            text-decoration: none;
+            
         }
         .theme-switcher {
             position: absolute;

@@ -1,12 +1,12 @@
 import { useContext } from 'react'
 import { ThemeContext } from '../contexts/themeContext';
-
+import Link from 'next/link'
 
 const Heading = () => {
 
     const { lightTheme} = useContext(ThemeContext);
 
-    return (<h1><a className="home-link" href="/">Ordo Consultancy Ltd</a> <span>- A Digital Consultancy Service</span>
+    return (<h1><Link href="/"><a className="home-link">Ordo Consultancy Ltd</a></Link> <span>- A Digital Consultancy Service</span>
         <style jsx>{`
       h1 { 
         display:block; 

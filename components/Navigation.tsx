@@ -61,7 +61,7 @@ const Navigation = ({ active }: Props) => {
 
             {user && (
               <>
-                <span className="email">{user ? user['name'] : 'not known'}</span>
+                <span className="email">{user && user['name'] ? user['name'] : 'not known'}</span>
                 <button className="logout-btn" onClick={logout}>
                   logout
                 </button>

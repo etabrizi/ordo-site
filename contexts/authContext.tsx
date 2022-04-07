@@ -15,7 +15,7 @@ const [user, setUser] = useState(null)
 const [authReady, setAuthReady] = useState(false)
 
 useEffect(() => {
-    netlifyIdentity.on('login', (user) => {
+    netlifyIdentity.on('login', (user : any) => {
         setUser(user)
         netlifyIdentity.close()
         console.log('Login event')
@@ -25,7 +25,7 @@ useEffect(() => {
         console.log('Logout')
     })
 
-    netlifyIdentity.on('init', (user) => {
+    netlifyIdentity.on('init', (user : any) => {
         setUser(user)
         setAuthReady(true)
         console.log('init event')

@@ -3,7 +3,7 @@ import netlifyIdentity from 'netlify-identity-widget'
 
 
 interface IContextProps {
-    user: null,
+    user: any,
     login: () => void,
     logout : () => void,
     authReady: boolean
@@ -18,7 +18,7 @@ const AuthContext = createContext({
 
 export const AuthContextProvider = ({ children } : any) => {
    
-const [user, setUser] = useState([] as any[]);
+const [user, setUser] = useState<any>(null)
 const [authReady, setAuthReady] = useState(false)
 
 useEffect(() => {

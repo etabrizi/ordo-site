@@ -12,8 +12,6 @@ const Navigation = ({ active }: Props) => {
   const [mobileToggle, setMobileToggle] = useState(false);
   const { user, login, logout, authReady } = useContext(AuthContext);
 
-  console.log(user);
-
   const setToggle = () => {
     setMobileToggle(!mobileToggle);
   };
@@ -63,7 +61,7 @@ const Navigation = ({ active }: Props) => {
 
             {user && (
               <>
-                <span className="email">{user && user['email']}</span>
+                <span className="email">{user ? user['name'] : 'not known'}</span>
                 <button className="logout-btn" onClick={logout}>
                   logout
                 </button>

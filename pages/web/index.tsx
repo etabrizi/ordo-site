@@ -24,7 +24,6 @@ const Web = () => {
                 <Aside>
                     <h4>Clients we've worked with:</h4>
                     <div title="Birmingham City University" className="icon-bham_uni"></div>
-                    <div title="The Environment Agency" className="icon-environment_agency"></div>
                     <div title="Npower" className="icon-npower"></div>
                     <div title="Wolverhampton City Council" className="icon-wolverhampton_logo"></div>
                     <div title="Alive Digtial" className="icon-alive"></div>

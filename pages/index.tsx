@@ -19,10 +19,11 @@ const IndexPage = () => {
 
     <div className="home-panel">      
       <div>
-        <h3>Web Services</h3>
+        <h3>Digital Web Services</h3>
         <ul>
           <li>Front-end Development</li>
           <li>Mobile App Development</li>
+          <li>Digital integration</li>
         </ul>
         <Link href="/web"><a>View our web services</a></Link>
       </div>

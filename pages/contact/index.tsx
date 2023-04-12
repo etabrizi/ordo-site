@@ -99,7 +99,7 @@ const Contact = () => {
                     lightTheme ? "icon-linkedin" : "icon-linkedin-white"
                   }
                 ></span>
-                <span>We're on linkedin</span>
+                <span>We're on Linkedin</span>
               </a>
             </li>
           </ul>

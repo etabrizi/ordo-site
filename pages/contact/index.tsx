@@ -86,7 +86,7 @@ const Contact = () => {
                 <span
                   className={lightTheme ? "icon-twitter" : "icon-twitter-white"}
                 ></span>
-                <span>We're on twitter</span>
+                <span>We're on X (twitter)</span>
               </a>
             </li>
             <li>
@@ -108,6 +108,7 @@ const Contact = () => {
           h3 {
             color: ${lightTheme ? "#000" : "#fff"};
             transition: color 0.2s;
+            font-size: 24px;
           }
           .clients {
             display: flex;

@@ -55,6 +55,7 @@ const Design = () => {
           h3 {
             color: ${lightTheme ? "#000" : "#fff"};
             transition: color 0.2s;
+            font-size: 24px;
           }
           a {
             color: ${lightTheme ? "#000" : "#fff"};

@@ -30,19 +30,14 @@ const Navigation = ({ active }: Props) => {
             <a>Home</a>
           </Link>
         </li>
-        <li id="web" className={active === "web" ? "active" : ""}>
-          <Link href="/web">
-            <a>Web</a>
+        <li id="development" className={active === "development" ? "active" : ""}>
+          <Link href="/development">
+            <a>Development</a>
           </Link>
         </li>
         <li id="design" className={active === "design" ? "active" : ""}>
           <Link href="/design">
             <a>Design</a>
-          </Link>
-        </li>
-        <li id="training" className={active === "training" ? "active" : ""}>
-          <Link href="/training">
-            <a>Training</a>
           </Link>
         </li>
         <li id="contact" className={active === "contact" ? "active" : ""}>

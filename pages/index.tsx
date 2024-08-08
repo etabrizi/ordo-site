@@ -19,30 +19,22 @@ const IndexPage = () => {
 
     <div className="home-panel">      
       <div>
-        <h3>Digital Web Services</h3>
+        <h3>Digital Development Services</h3>
         <ul>
           <li>Front-end Development</li>
           <li>Mobile App Development</li>
-          <li>Digital integration</li>
+          <li>Digital Integration</li>
         </ul>
-        <Link href="/web"><a>View our web services</a></Link>
+        <Link href="/development"><a>View our development services</a></Link>
       </div>
       <div>
-        <h3>Design Services</h3>
+        <h3>Digital Design Services</h3>
         <ul>
           <li>UI / UX Design</li>
           <li>Printed Marketing</li>
           <li>Digital illustration</li>
         </ul>
         <Link href="/design"><a>View our design services</a></Link>
-      </div>
-      <div>
-        <h3>Training Services</h3>
-        <ul>
-          <li>Web Development</li>
-          <li>Web / Digital Design </li>
-        </ul>
-        <Link href="/training"><a>View our training services</a></Link>
       </div>
     </div>
     <style jsx>{`
@@ -104,7 +96,7 @@ const IndexPage = () => {
         flex-direction: row;
       }
       .home-panel div {
-        width: 33.333%;
+        width: 100%;
         position: relative;
         min-height: 170px;
       }

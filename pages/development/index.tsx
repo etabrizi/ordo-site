@@ -7,15 +7,15 @@ import { useContext } from 'react'
 import { ThemeContext } from '../../contexts/themeContext';
 
 
-const Web = () => {
+const Development = () => {
     const { lightTheme } = useContext(ThemeContext);
     return (<>
         <Head>
-            <title>Ordo Consultancy Ltd - A Digital Consultancy Service - Web services</title>
+            <title>Ordo Consultancy Ltd - A Digital Consultancy Service - Development services</title>
         </Head>
-        <Layout pageTitle="Making technology work" activeNav="web">
+        <Layout pageTitle="Making technology work" activeNav="development">
             <ContentBlock minHeight={575}>
-                <h3>Web services</h3>
+                <h3>Development services</h3>
                 <p>Technology moves quickly, we keep up. That's why Ordo provides the latest skill set when it comes to new and emerging web technologies.</p>
                 <p>Whatever the project size, we have the experience and the drive to deliver the results your business needs. </p>
                 <div title="HTML, CSS, Javascript, React, Next, Vue, Firebase" className={lightTheme ? "icon-techstack" : "icon-techstack-white"}></div>
@@ -44,6 +44,7 @@ const Web = () => {
         h3 {
             color: ${lightTheme ? '#000' : '#fff'};
             transition: color 0.2s;
+            font-size: 24px;
         }
         a {
             color: ${lightTheme ? '#000' : '#fff'};
@@ -54,4 +55,4 @@ const Web = () => {
     </>)
 }
 
-export default Web
+export default Development

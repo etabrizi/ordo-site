@@ -15,7 +15,7 @@ const Development = () => {
         </Head>
         <Layout pageTitle="Making technology work" activeNav="development">
             <ContentBlock minHeight={575}>
-                <h3>Development services</h3>
+                <h3>1Development services</h3>
                 <p>Technology moves quickly, we keep up. That's why Ordo provides the latest skill set when it comes to new and emerging web technologies.</p>
                 <p>Whatever the project size, we have the experience and the drive to deliver the results your business needs. </p>
                 <div title="HTML, CSS, Javascript, React, Next, Vue, Firebase" className={lightTheme ? "icon-techstack" : "icon-techstack-white"}></div>

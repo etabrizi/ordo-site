@@ -35,6 +35,11 @@ const Navigation = ({ active }: Props) => {
             <a>Development</a>
           </Link>
         </li>
+         <li id="apps" className={active === "apps" ? "active" : ""}>
+          <Link href="/apps">
+            <a>Apps</a>
+          </Link>
+        </li>
         <li id="design" className={active === "design" ? "active" : ""}>
           <Link href="/design">
             <a>Design</a>

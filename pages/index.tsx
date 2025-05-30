@@ -13,34 +13,45 @@ const IndexPage = () => {
       pageTitle={
         isMobile
           ? `The best skilled consultants, in all areas of digital delivery`
-          : `Our aim is to provide UK business with the best skilled consultants, in all areas of digital delivery`
+          : `Our aim is to provide UK business with the best skilled consultants, who build web apps and deliver Digital`
       }
     >
-      <div className="home-panel">
-        <div>
-          <h3>Digital Development Services</h3>
-          <ul>
-            <li>Front-end Development</li>
-            <li>Mobile App Development</li>
-            <li>Digital Integration</li>
-          </ul>
-          <Link href="/development">
-            <a>View our development services</a>
-          </Link>
-        </div>
-        <div>
-          <h3>Digital Design Services</h3>
-          <ul>
-            <li>UI / UX Design</li>
-            <li>Printed Marketing</li>
-            <li>Digital illustration</li>
-          </ul>
-          <Link href="/design">
-            <a>View our design services</a>
-          </Link>
-        </div>
-        <span className="stamp" />
-      </div>
+     <div className="home-panel">
+  <div>
+    <h3>Digital Development Services</h3>
+    <ul>
+      <li>Front-end Development</li>
+      <li>Digital Integration</li>
+    </ul>
+    <Link href="/development">
+      <a>View our development services</a>
+    </Link>
+  </div>
+  <div>
+    <h3>Web App Services</h3>
+    <ul>
+      <li>Apple apps</li>
+      <li>Android apps</li>
+      <li>PWA</li>
+    </ul>
+    <Link href="/apps">
+      <a>View our app services</a>
+    </Link>
+  </div>
+  <div>
+    <h3>Digital Design Services</h3>
+    <ul>
+      <li>UI / UX Design</li>
+      <li>Printed Marketing</li>
+      <li>Digital Illustration</li>
+    </ul>
+    <Link href="/design">
+      <a>View our design services</a>
+    </Link>
+  </div>
+  
+  
+</div>
       <style jsx>{`
         .home-panel {
           display: flex;
@@ -107,9 +118,7 @@ const IndexPage = () => {
             display: block;
           }
 
-          .home-panel div:first-child {
-            margin-left: 230px;
-          }
+          
 
           .home-panel {
             flex-direction: row;

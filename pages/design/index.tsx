@@ -28,7 +28,7 @@ const Design = () => {
             className="art-packs"
           ></span>
 
-          <ul className="copy">
+          <ul>
             <li>
               We offer a step by step process for delivery, which keeps the
               design process clear and concise.

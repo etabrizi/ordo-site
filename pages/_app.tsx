@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         <title>Ordo Consultancy Ltd - A Digital Consultancy Service</title>
         <meta
           name="description"
-          content="Our aim is to provide UK business with the best skilled consultants, in all areas of Digital Delivery."
+          content="Our aim is to provide UK business with the best skilled consultants, who build web apps and deliver Digital"
         />
         <link
           rel="shortcut icon"

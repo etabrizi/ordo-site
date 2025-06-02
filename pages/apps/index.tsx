@@ -4,7 +4,7 @@ import ContentBlock from "../../components/ContentBlock";
 import Head from "next/head";
 import { useContext } from "react";
 import { ThemeContext } from "../../contexts/themeContext";
-
+import Aside from "../../components/Aside";
 
 const Development = () => {
   const { lightTheme } = useContext(ThemeContext);
@@ -63,7 +63,10 @@ const Development = () => {
             <strong>📲 Let’s bring your app idea to life.</strong>
           </p>
 
-         
+          <Aside noBackground>
+
+            <p><a href="/apps/bp-logger">BP Logger - Native Apple app</a></p>
+          </Aside>
         </ContentBlock>
         <style jsx>{`
           .stack-wrapper {
@@ -78,6 +81,9 @@ const Development = () => {
             color: ${lightTheme ? "#000" : "#fff"};
             transition: color 0.2s;
             font-size: 24px;
+          }
+          h4 {
+            text-align: left;
           }
           a {
             color: ${lightTheme ? "#000" : "#fff"};

@@ -3,7 +3,7 @@ import ContentBlock from "../../../components/ContentBlock";
 import Head from "next/head";
 import { useContext } from "react";
 import { ThemeContext } from "../../../contexts/themeContext";
-import Image from "next/image";
+
 import Aside from "../../../components/Aside";
 
 const Development = () => {
@@ -95,7 +95,7 @@ const Development = () => {
           </p>
 
           <Aside noBackground>
-            <Image
+            <img
               src="/bp-logo.png"
               alt="Bp Logger logo"
               width={256}

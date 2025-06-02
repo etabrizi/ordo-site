@@ -31,7 +31,7 @@ const Development = () => {
             consistent, and when needed, export your data as a CSV file or print
             it out to share with your GP. You'll also find helpful information
             and a personalised health recommendation, once enough readings are
-            recorded. 
+            recorded.
           </p>
           <ul>
             <li>
@@ -63,6 +63,18 @@ const Development = () => {
               CSV file for further analysis or record-keeping.
             </li>
           </ul>
+          <p>
+            This app was built by <strong>Ordo Consultancy</strong>. If you have
+            any questions or need support, please don’t hesitate to{" "}
+            <a
+              href="https://www.ordoconsultancy.net/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              contact us
+            </a>
+            .
+          </p>
           <p>
             <a href="/apps/bp-logger/privacy-policy">View Privacy policy</a>
           </p>

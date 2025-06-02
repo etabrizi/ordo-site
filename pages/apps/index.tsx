@@ -15,7 +15,7 @@ const Development = () => {
           Ordo Consultancy Ltd - A Digital Consultancy Service - App services
         </title>
       </Head>
-      <Layout pageTitle="native digital capacity" activeNav="apps">
+      <Layout pageTitle="native digital apps" activeNav="apps">
         <ContentBlock minHeight={575}>
           <h3>App services</h3>
 

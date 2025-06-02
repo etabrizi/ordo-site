@@ -16,7 +16,7 @@ const Development = () => {
           services
         </title>
       </Head>
-      <Layout pageTitle="BP Logger" activeNav="apps">
+      <Layout pageTitle="Native digital apps" activeNav="apps">
         <ContentBlock minHeight={575}>
           <h3>Privacy Policy for BP Logger App</h3>
           <p>

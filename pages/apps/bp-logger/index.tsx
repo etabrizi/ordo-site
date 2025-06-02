@@ -16,35 +16,33 @@ const Development = () => {
           Ordo Consultancy Ltd - A Digital Consultancy Service - App services
         </title>
       </Head>
-      <Layout pageTitle="native digital capacity" activeNav="apps">
+      <Layout pageTitle="native digital apps" activeNav="apps">
         <ContentBlock minHeight={575}>
           <h3>BP Logger</h3>
-
           <p>
             <strong>Stay in control of your health</strong> with BP Logger, the
             easy-to-use app for logging blood pressure readings.{" "}
           </p>
           <p>
-            The app empowers you to monitor and manage your blood pressure from
-            your mobile device. Your readings are securely stored locally on
-            your phone or tablet, giving you complete control over your health
-            data at all times. You can log readings manually, review over time,
-            and explore how lifestyle factors like stress, exercise, or alcohol
-            may be affecting your blood pressure.
+            Take control of your blood pressure with a simple, private tracking
+            tool. This app makes it easy to log your systolic and diastolic
+            readings, then view your progress over time with a clear
+            easy-to-read graph. Set daily notifications to help you stay
+            consistent, and when needed, export your data as a CSV file or print
+            it out to share with your GP. You'll also find helpful information
+            and a personalised health recommendation, once enough readings are
+            recorded. 
           </p>
-          <p>
-            The app also includes optional notifications, health recommendation
-            based on guidelines, and the ability to print or share your readings
-            with your GP. This helps support proactive health management and
-            encourages small, informed changes to maintain healthy blood
-            pressure.
-          </p>
-
           <ul>
             <li>
               <strong>Average Readings:</strong> Get a rounded-up average of
               your blood pressure readings for days with multiple entries,
               providing a clear snapshot of your daily health.
+            </li>
+            <li>
+              <strong>Daily Notifications:</strong> Receive timely reminders to
+              log your blood pressure readings, ensuring consistency and helping
+              you track your health progress.
             </li>
             <li>
               <strong>PDF Download:</strong> Export your blood pressure logs as
@@ -65,12 +63,16 @@ const Development = () => {
               CSV file for further analysis or record-keeping.
             </li>
           </ul>
-
           <p>
             <a href="/apps/bp-logger/privacy-policy">View Privacy policy</a>
           </p>
           <Aside noBackground>
-            <img src="/bp-logo.png" alt="Bp Logger logo" width={256} height={256} />
+            <img
+              src="/bp-logo.png"
+              alt="Bp Logger logo"
+              width={256}
+              height={256}
+            />
           </Aside>
         </ContentBlock>
         <style jsx>{`

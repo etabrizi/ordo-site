@@ -72,7 +72,7 @@ const Development = () => {
             <a href="/apps/bp-logger/privacy-policy">View Privacy policy</a>
           </p>
           <p>
-            View our 
+            View our {" "}
             <a
               href="https://bp-logger-design-system.netlify.app/?path=/docs/introduction--docs"
               target="_blank"

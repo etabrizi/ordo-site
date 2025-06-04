@@ -66,17 +66,21 @@ const Development = () => {
           <p>
             This app was built by <strong>Ordo Consultancy</strong>. If you have
             any questions or need support, please don’t hesitate to{" "}
-            <a
-              href="https://www.ordoconsultancy.net/contact"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              contact us
-            </a>
-            .
+            <a href="https://www.ordoconsultancy.net/contact">contact us</a>.
           </p>
           <p>
             <a href="/apps/bp-logger/privacy-policy">View Privacy policy</a>
+          </p>
+          <p>
+            View our 
+            <a
+              href="https://bp-logger-design-system.netlify.app/?path=/docs/introduction--docs"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              accessible design system
+            </a>{" "}
+            which was developed for the BP Logger app.
           </p>
           <Aside noBackground>
             <img

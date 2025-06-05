@@ -6,6 +6,7 @@ import { useContext } from "react";
 import { ThemeContext } from "../../../contexts/themeContext";
 
 import Aside from "../../../components/Aside";
+import Link from "next/link";
 
 const Development = () => {
   const { lightTheme } = useContext(ThemeContext);
@@ -16,7 +17,7 @@ const Development = () => {
           Ordo Consultancy Ltd - A Digital Consultancy Service - App services
         </title>
       </Head>
-      <Layout pageTitle="native digital apps" activeNav="apps">
+      <Layout pageTitle="Native digital apps" activeNav="apps">
         <ContentBlock minHeight={575}>
           <h3>BP Logger</h3>
           <p>
@@ -69,7 +70,7 @@ const Development = () => {
             <a href="https://www.ordoconsultancy.net/contact">contact us</a>.
           </p>
           <p>
-            <a href="/apps/bp-logger/privacy-policy">View Privacy policy</a>
+            <Link href="/apps/bp-logger/privacy-policy"><a>View Privacy policy</a></Link>
           </p>
           <p>
             View our {" "}

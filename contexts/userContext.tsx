@@ -9,7 +9,7 @@ const UserContextProvider = (props: any) => {
     const [user, setUser] = useState('tom');
 
     const test = () => {
-        setUser('bollocks');
+        setUser('test');
     }
 
     return (

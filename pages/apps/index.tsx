@@ -5,6 +5,7 @@ import Head from "next/head";
 import { useContext } from "react";
 import { ThemeContext } from "../../contexts/themeContext";
 import Aside from "../../components/Aside";
+import Link from "next/link";
 
 const Development = () => {
   const { lightTheme } = useContext(ThemeContext);
@@ -15,7 +16,7 @@ const Development = () => {
           Ordo Consultancy Ltd - A Digital Consultancy Service - App services
         </title>
       </Head>
-      <Layout pageTitle="native digital apps" activeNav="apps">
+      <Layout pageTitle="Native digital apps" activeNav="apps">
         <ContentBlock minHeight={575}>
           <h3>App services</h3>
 
@@ -64,8 +65,8 @@ const Development = () => {
           </p>
 
           <Aside noBackground>
-
-            <p><a href="/apps/bp-logger">BP Logger - Native Apple app</a></p>
+            <h4>Apps we've built:</h4>
+            <p><Link href="apps/bp-logger"><a>BP Logger - Native Apple app</a></Link></p>
           </Aside>
         </ContentBlock>
         <style jsx>{`
@@ -83,6 +84,7 @@ const Development = () => {
             font-size: 24px;
           }
           h4 {
+            color: ${lightTheme ? "#000" : "#fff"};
             text-align: left;
           }
           a {

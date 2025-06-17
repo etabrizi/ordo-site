@@ -11,10 +11,11 @@ const Development = () => {
   return (
     <>
       <Head>
-        <title>
-          Ordo Consultancy Ltd - A Digital Consultancy Service - Development
-          services
-        </title>
+        <title>BP Logger App Privacy Policy – Ordo Consultancy Ltd</title>
+        <meta
+          name="description"
+          content="Read the privacy policy for BP Logger App. Learn how your data stays private, with no tracking or external storage – everything remains on your device."
+        />
       </Head>
       <Layout pageTitle="Native digital apps" activeNav="apps">
         <ContentBlock minHeight={575}>
@@ -82,7 +83,30 @@ const Development = () => {
             posted with an updated "Effective Date" above.
           </p>
 
-          <h3>7. Contact Us</h3>
+          <h3>7. Use of NHS Guidelines</h3>
+          <p>
+            BP Logger App uses publicly available NHS guidance to help you
+            interpret your blood pressure readings. This information is provided
+            for educational purposes only and does not constitute medical
+            advice. The app does not connect to or exchange any data with NHS
+            systems.
+          </p>
+
+       
+        <p className="nhs-attribution">
+        Information adapted from the NHS website (accessed 10 June 2025).
+        Licensed under the {" "}
+        <a
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Government Licence v3.0
+        </a>
+        .
+      </p>
+
+          <h3>8. Contact Us</h3>
           <p>
             If you have any questions or concerns about this Privacy Policy,
             please contact our director Emyr, at:
@@ -100,6 +124,7 @@ const Development = () => {
               alt="Bp Logger logo"
               width={256}
               height={256}
+              role="presentation"
             />
           </Aside>
         </ContentBlock>

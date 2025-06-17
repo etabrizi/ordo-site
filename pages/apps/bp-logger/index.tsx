@@ -16,6 +16,10 @@ const Development = () => {
         <title>
           Ordo Consultancy Ltd - A Digital Consultancy Service - App services
         </title>
+        <meta
+          name="description"
+          content="BP Logger helps you track blood pressure privately using NHS guidance. View trends, receive reminders, and export your data to share with your GP."
+        />
       </Head>
       <Layout pageTitle="Native digital apps" activeNav="apps">
         <ContentBlock minHeight={575}>
@@ -31,7 +35,7 @@ const Development = () => {
             easy-to-read graph. Set daily notifications to help you stay
             consistent, and when needed, export your data as a CSV file or print
             it out to share with your GP. You'll also find helpful information
-            and a personalised health recommendation, once enough readings are
+            and a personalised health insight, once enough readings are
             recorded.
           </p>
           <ul>
@@ -50,30 +54,52 @@ const Development = () => {
               a PDF to easily share with your healthcare provider.
             </li>
             <li>
-              <strong>Personalised Recommendation:</strong> Receive tailored
-              health recommendation based on your readings.
+              <strong>Personalised Insight:</strong> Receive a tailored
+              health insight based on your readings.
             </li>
             <li>
-              <strong>Comprehensive History with Graph:</strong> Visualize your
+              <strong>Comprehensive History with Graph:</strong> Visualise your
               progress over time with easy-to-read graph of your blood pressure
               history.
             </li>
-
             <li>
               <strong>CSV Export:</strong> Export your blood pressure data as a
               CSV file for further analysis or record-keeping.
             </li>
           </ul>
+
+          <h4>Uses NHS Guidance</h4>
+          <p>
+            BP Logger uses publicly available NHS guidance to help you interpret
+            your blood pressure readings. The app highlights categories such as
+            normal, elevated, or high blood pressure based on NHS-defined
+            thresholds. This information is provided for educational purposes
+            only and does not replace medical advice.
+          </p>
+          <p className="nhs-attribution">
+            Information adapted from the NHS website (accessed 10 June 2025).
+            Licensed under the{" "}
+            <a
+              href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open Government Licence v3.0
+            </a>.
+          </p>
+
           <p>
             This app was built by <strong>Ordo Consultancy</strong>. If you have
             any questions or need support, please don’t hesitate to{" "}
             <a href="https://www.ordoconsultancy.net/contact">contact us</a>.
           </p>
           <p>
-            <Link href="/apps/bp-logger/privacy-policy"><a>View Privacy policy</a></Link>
+            <Link href="/apps/bp-logger/privacy-policy">
+              <a>View Privacy policy</a>
+            </Link>
           </p>
           <p>
-            View our {" "}
+            View our{" "}
             <a
               href="https://bp-logger-design-system.netlify.app/?path=/docs/introduction--docs"
               target="_blank"
@@ -83,15 +109,17 @@ const Development = () => {
             </a>{" "}
             which was developed for the BP Logger app.
           </p>
+
           <Aside noBackground>
             <img
               src="/bp-logo.png"
-              alt="Bp Logger logo"
+              alt="BP Logger logo"
               width={256}
               height={256}
             />
           </Aside>
         </ContentBlock>
+
         <style jsx>{`
           .stack-wrapper {
             background: #fff;
@@ -106,13 +134,19 @@ const Development = () => {
             transition: color 0.2s;
             font-size: 24px;
           }
+
           h4 {
             text-align: left;
+            font-size: 20px;
+            margin-top: 2rem;
           }
+
           a {
             color: ${lightTheme ? "#000" : "#fff"};
             transition: color 0.2s;
           }
+
+         
         `}</style>
       </Layout>
     </>
